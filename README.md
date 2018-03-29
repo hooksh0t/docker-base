@@ -1,8 +1,8 @@
-[![Docker Build Status](https://img.shields.io/docker/build/brantje/docker-nodejs-python.svg)](https://hub.docker.com/r/brantje/docker-nodejs-python/)
-[![Docker Automated build](https://img.shields.io/docker/automated/brantje/docker-nodejs-python.svg)](https://hub.docker.com/r/brantje/docker-nodejs-python/)
-[![Pulls](https://img.shields.io/docker/pulls/brantje/docker-nodejs-python.svg)](https://hub.docker.com/r/brantje/docker-nodejs-python/)
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/brantje/docker-nodejs-python/latest.svg)](https://hub.docker.com/r/brantje/docker-nodejs-python/)
-[![ImageLayers Layers](https://img.shields.io/imagelayers/layers/brantje/docker-nodejs-python/latest.svg)](https://hub.docker.com/brantje/docker-nodejs-python)
+[![Docker Build Status](https://img.shields.io/docker/build/hookshot/docker-nodejs-python.svg)](https://hub.docker.com/r/hookshot/docker-nodejs-python/)
+[![Docker Automated build](https://img.shields.io/docker/automated/hookshot/docker-nodejs-python.svg)](https://hub.docker.com/r/hookshot/docker-nodejs-python/)
+[![Pulls](https://img.shields.io/docker/pulls/hookshot/docker-nodejs-python.svg)](https://hub.docker.com/r/hookshot/docker-nodejs-python/)
+[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/hookshot/docker-nodejs-python/latest.svg)](https://hub.docker.com/r/hookshot/docker-nodejs-python/)
+[![ImageLayers Layers](https://img.shields.io/imagelayers/layers/hookshot/docker-nodejs-python/latest.svg)](https://hub.docker.com/hookshot/docker-nodejs-python)
 
 
 # Node.js with Python based on [2.7-alpine3.6](https://hub.docker.com/_/python/)
@@ -13,22 +13,22 @@
 ----
 ### Pull from Docker Hub
 ```
-docker pull brantje/docker-nodejs-python:latest
+docker pull hookshot/docker-nodejs-python:latest
 ```
 
 ### Build from GitHub
 ```
-docker build -t brantje/docker-nodejs-python github.com/brantje/docker-nodejs-python
+docker build -t hookshot/docker-nodejs-python github.com/hookshot/docker-nodejs-python
 ```
 
 ### Run image
 ```
-docker run -it brantje/docker-nodejs-python bash
+docker run -it hookshot/docker-nodejs-python bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM brantje/docker-nodejs-python:latest
+FROM hookshot/docker-nodejs-python:latest
 ```
 
 ## Disclaimer
